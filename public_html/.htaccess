@@ -1,0 +1,34 @@
+RewriteEngine On
+
+DirectoryIndex index.php
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+RewriteRule ^about          index.php [NC] 
+RewriteRule ^exhibit        exhibit.php [NC] 
+RewriteRule ^sponsors       sponsors.php [NC] 
+RewriteRule ^attend         attend.php [NC] 
+RewriteRule ^hotel          hotel.php [NC] 
+RewriteRule ^news           news.php [NC] 
+RewriteRule ^contact        contact.php [NC] 
+RewriteRule ^join           join-exhibitors.php [NC] 
+RewriteRule ^register       join-attendants.php [NC]
+RewriteRule ^portrait-gold  join-sponsorship.php [NC]
+RewriteRule ^create         create-acnt.php [NC]
+RewriteRule ^login          login.php [NC]
+RewriteRule ^profile        admin-attendants.php [NC]
+RewriteRule ^vendors        admin-exhibitors.php [NC]
+RewriteRule ^partners       admin-sponsors.php [NC]
+RewriteRule ^reserve        reservehotel.php [NC]
+RewriteRule ^checkout       checkout.php [NC]
+RewriteRule ^tickets        tickets.php [NC]
+RewriteRule ^attribution    attribution.php [NC]
+
+
+
+
+
+
+
+
+

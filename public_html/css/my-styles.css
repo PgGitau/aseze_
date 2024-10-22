@@ -1,0 +1,697 @@
+
+textarea {
+    width: 100%;
+    min-height: 50px;
+    max-height: 300px; /* Optional max height */
+    resize: none; /* Disable manual resizing */
+    padding: 10px;
+    box-sizing: border-box; /* Include padding in width calculation */
+}
+
+/*Download button*/
+
+.download {
+    width: 300px; 
+    height: 60px; 
+    padding: 0 10px;
+    background: #5d924d; 
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+    display: table;
+    text-align: center;
+    border-radius: 4px;
+    position: relative;
+    transition: letter-spacing 0.3s ease, line-height 0.3s ease;
+}
+
+.downloadhero {
+    width: 330px; 
+    height: 60px; 
+    padding: 0 10px;
+    background: white; 
+    color: #5d924d;
+    font-size: 24px;
+    cursor: pointer;
+    display: table;
+    text-align: center;
+    border-radius: 4px;
+    position: relative;
+    margin-top: 80px;
+    transition: letter-spacing 0.3s ease, line-height 0.3s ease;
+}
+
+.downloadhero:hover {
+    letter-spacing: 1px;
+}
+
+@media (max-width: 768px) { 
+    .downloadhero {
+        max-width: 100%; 
+        height: 60px; 
+        padding: 0 10px;
+        background: #5d924d; 
+        color: white;
+        font-size: 24px;
+        cursor: pointer;
+        display: table;
+        text-align: center;
+        border-radius: 4px;
+        position: relative;
+        margin: 40px auto 20px auto;
+    }
+}
+
+.download:hover {
+    background: #7cb16d;
+    letter-spacing: 1px;
+}
+
+.downloadhalf {
+    width: 46%; 
+    height: 60px; 
+    padding: 0 10px;
+    background: #5d924d; 
+    color: white;
+    font-size: 19px;
+    line-height: 36px;
+    cursor: pointer;
+    display: inline block;
+    text-align: center;
+    border-radius: 4px;
+    float: left;
+    transition: letter-spacing 0.3s ease, line-height 0.3s ease;
+}
+
+.downloadhalf:hover {
+    background: #7cb16d;
+    letter-spacing: 1px;
+}
+
+.newsubmit {
+    width: 300px; 
+    height: 60px; 
+    padding: 0 10px;
+    background: #5d924d; 
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+    display: table;
+    text-align: center;
+    border-radius: 4px;
+    border: none;
+    margin: 0 auto;
+    transition: letter-spacing 0.3s ease, line-height 0.3s ease;
+}
+
+.newsubmit:hover {
+    background: #7cb16d;
+    letter-spacing: 1px;
+}
+
+.downloadp {
+    margin-top: 12px;
+}
+
+.bigtext {
+    font-size: 20px;
+    margin: 10px;
+    font-weight: bold;
+}
+
+.bigtext p {
+    margin: 5px;
+}
+
+.download2 {
+    width: 300px; 
+    height: 60px; 
+    background: white; 
+    color: black;
+    font-size: 24px;
+    cursor: pointer;
+    display: table;
+    text-align: center;
+    margin: 0 auto;
+    border-radius: 4px;
+    transition: letter-spacing 0.3s ease, line-height 0.3s ease;
+}
+
+.download2:hover {
+    color: grey;
+    background: #d1e3cc;
+    letter-spacing: 1px;
+}
+
+textarea:focus, input:focus{
+    outline: none;
+    border: 1px solid #707070;
+}
+
+::placeholder {
+  color: #9a9a9a;
+  opacity: 1; /* Firefox */
+}
+
+::-ms-input-placeholder { /* Edge 12 -18 */
+  color: #9a9a9a;
+}
+
+.join-form {
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+    color: black;
+    display: block;
+    margin-bottom: 50px;
+}
+
+.badge {
+    width: 100%;
+    text-align: left;
+    position: relative; 
+    padding: 0;
+}
+
+.badge2 {
+    width: 100%;
+    height: auto;
+    position: relative;
+    border-radius: 4px;
+    overflow: hidden;
+    border: 2px solid #ffffff; 
+}
+
+.badgebasket {
+    width: 49%; 
+    height: 40px;
+    display: inline block;
+    position: relative;
+    float: left;
+    padding: 0;
+}
+
+.badgethird {
+    width: 32%;
+    display: inline block;
+    float: left;
+}
+
+.badgebaskethalf {
+    width: 100%; 
+    height: 40px;
+    display: inline block;
+    position: relative;
+    float: left;
+    margin-bottom: 20px;
+    margin-left: 0;
+    border: 1px solid #a0a0a0;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 4px;
+}
+
+.badgebaskethalf p {
+    margin-bottom: 5px;
+}
+.badgebaskethalf:focus {
+    border: 2px solid #70c254;
+    box-shadow: 2px 2px 7px -1px #70c254;
+}
+
+.badgebaskethalf:valid {
+  border: 2px solid #70c254;
+}
+
+@media (max-width: 768px) { 
+    .badgethird {
+        width: 100%;
+    }
+    .flierseparator {
+        margin-top: 50px;
+        margin-bottom: 110px;
+    }
+    .badgebasket {
+        width: 100%; 
+    }
+    .seperatedownwards {
+        margin-bottom: 45px;
+        
+    }
+}
+
+.marginleft {
+    margin-left: 1%;
+}
+
+.half {
+    width: 100px;
+    height: 40px;
+    border: 1px solid #a0a0a0;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 4px;
+    display: inline-block;
+    position: relative;
+    margin-left: 30px;
+    font-size: inherit; 
+}
+
+.halfpassposrt {
+    width: 220px;
+    height: 40px;
+    border: 1px solid #a0a0a0;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 4px;
+    display: inline-block;
+    position: relative;
+    font-size: inherit; 
+    margin-bottom: 20px;
+}
+
+.half::placeholder {
+  font-size: 13px;
+}
+
+.p-half {
+    font-size: 15px;
+    width: 130px;
+    display: inline-block;
+    margin-left: 20px;
+    color: #919191;
+}
+
+.form-check {
+  position: relative;
+}
+i
+/* Checkbox - Customize the label (the containercheck) */
+.containercheck {
+  display: block;
+  position: relative;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.containercheck input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+  position: absolute;
+  top: 5px;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: white;
+  border: 1px solid #a3a3a3;
+  border-radius: 2px;
+  width: 30px;
+  height: 30px;
+}
+
+/* On mouse-over, add a grey background color */
+.containercheck:hover input ~ .checkmark {
+  border: 1px solid #949494;
+  background-color: #ccc;
+  cursor: pointer;
+}
+
+/* When the checkbox is checked, add a blue background */
+.containercheck input:checked ~ .checkmark {
+  background-color: #70c254;
+  border: 1px solid #70c254;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.containercheck input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.containercheck .checkmark:after {
+  left: 8px;
+  top:4px;
+  width: 9px;
+  height: 15px;
+  font-weight: bold;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+/* Customize the label (the container) */
+.containeradio {
+  display: inline block;
+  position: relative;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default radio button */
+.containeradio input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom radio button */
+.checkmarkradio {
+  position: absolute;
+  top: 5px;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #ffffff;
+  border-radius: 50%;
+  border: 1px solid #a3a3a3;
+}
+
+/* On mouse-over, add a grey background color */
+.containeradio:hover input ~ .checkmarkradio {
+  background-color: #ccc;
+}
+
+/* When the radio button is checked, add a blue background */
+.containeradio input:checked ~ .checkmarkradio {
+  background-color: #70c254;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.checkmarkradio:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.containeradio input:checked ~ .checkmarkradio:after {
+  display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.containeradio .checkmarkradio:after {
+  top: 8px;
+  left: 8px;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: white;
+}
+
+.join-form .input {
+    width: 100%;
+    height: 40px;
+    margin-bottom: 20px;
+    border: 1px solid #a0a0a0;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 4px;
+}
+
+.inputinvisible {
+    width: 100%;
+    height: 40px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 4px;
+}
+
+.join-form input:focus {
+    border: 2px solid #70c254;
+    box-shadow: 2px 2px 7px -2px #70c254;
+}
+
+.join-form p {
+    margin-bottom: 5px;
+}
+.join-form-select:focus {
+    border: 2px solid #70c254;
+    box-shadow: 2px 2px 7px -1px #70c254;
+}
+
+.input:valid {
+  border: 2px solid #70c254;
+}
+
+.join-form-select {
+    width: 100%;
+    height: 40px;
+    margin-bottom: 20px;
+    border: 1px solid #a0a0a0;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 4px;
+    outline: none;
+}
+
+.join-form-select2:focus {
+    border: 2px solid #70c254;
+    box-shadow: 2px 2px 7px -1px #70c254;
+}
+
+.join-form-select2 {
+    width: 220px;
+    height: 40px;
+    margin-bottom: 20px;
+    border: 1px solid #a0a0a0;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 4px;
+    outline: none;
+    display: inline-block;
+    position: relative;
+    font-size: inherit; 
+}
+
+.join-form-select2:valid {
+  border: 2px solid #70c254;
+}
+
+.joinform .half {
+    width: 50%;
+}
+
+.join-form .submit {
+    width: 290px;
+    height: 60px;
+    background: #5d924d;
+    cursor: pointer;
+    color: white;
+    text-align: center;
+    margin:30px auto;
+    display:block;
+    border: none;
+    border-radius: 4px;
+    outline: none;
+}
+
+.join-form .submit:hover {
+    background: #8dbb80;
+}
+
+/* Subscription form */
+
+.submitter {
+    width: 100px;
+    height: inherit;
+    background: #406c3e;
+    border: none;
+    border-radius: 0 4px 4px 0;
+    color: white;
+    cursor: pointer;
+    transition: letter-spacing 0.3s ease, line-height 0.3s ease;
+}
+.submitter:hover {
+    background: #345832;
+    letter-spacing: 1px;
+}
+.inputter {
+    border-radius: 4px 0 0 4px;
+}
+.inputter:focus{
+    outline: none;
+    border: 1px solid #5d924d;
+}
+
+/*Distinct country and number of attendants*/
+.sub-country {
+    width: auto;
+    margin-right: 20px;
+    background: #bfc7df;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+.expoday {
+    font-weight: bold; 
+    font-size: 22px; 
+    margin-top: 30px; 
+    position: relative;
+}
+
+@media (max-width: 768px) {
+    .expoday {
+        display: none;
+    }
+    .icon {
+        display: none;
+    }
+    .download {
+        width: 90%; 
+        margin: 0 auto;
+    }
+    .divseperator {
+        margin-bottom: 40px;
+    }
+    .join-form .submit {
+        width: 100%;
+    }
+}
+
+.programtext {
+    color: #7a7a7a;
+    font-size: 20px;
+}
+.programtext:hover {
+    color: #7a7a7a;
+}
+
+.iframeclass {
+    width: 100%;
+    height : 100%;
+}
+
+.sectorp {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+}
+.vertical-center {
+    position: relative;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+.sectordivs {
+    width: 48%; 
+    height: 200px; 
+    float: left; 
+    padding: 20px;
+}
+.sectordivsbasket {
+    width: 100%; 
+    height: 100%; 
+    float: left; 
+    border: 1px solid #ededed; 
+    border-radius: 4px;
+    box-shadow: 0px 0px 6px -4px grey;
+}
+.sectordivbasketpot {
+    width: 50%; 
+    height: 100%; 
+    float:left; 
+    position: relative; 
+    text-align: center;
+}
+@media (max-width: 991px) {
+    .sectordivs {
+        width: 100%; 
+        height: 200px; 
+        float: left; 
+        padding: 10px;
+        margin-bottom: 30px;
+    }
+    .sectorp {
+        font-size: 20px;
+        text-align: left;
+    }
+}
+
+.lefter {
+    width: 100%;
+    float: left;
+    position: relative;
+}
+
+#inpt2, #inp3 {
+    display: none; /* Initially hide the input field */
+}
+        
+.upload-container {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+input[type="file"] {
+    display: none; /* Hide the default file input */
+}
+
+.upload-label {
+    padding: 10px 9px;
+    background-color: #dddddd;
+    color: grey;
+    cursor: pointer;
+    border: 2px solid #dddddd;
+    border-radius: 4px;
+}
+
+.upload-label:hover {
+    background-color: #ebebeb;
+}
+
+.preview {
+    width: 140px;
+    height: auto;
+    margin-top: 10px;
+}
+
+.preview img {
+    max-width: 100%; /* Ensure the image fits within the container */
+    height: auto;
+}        
+
+/*Password view toggle*/
+.password-container {
+    position: relative;
+}
+
+.eye-icon {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    cursor: pointer;
+    width: 22px; /* Set the size of the icon */
+    height: auto; /* Maintain aspect ratio */
+}      
+
+
+
+
+
